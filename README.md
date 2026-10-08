@@ -1,19 +1,11 @@
-# Café Application
+# Café Application Project
 
-A command-line Java application that simulates a café ordering system, built using clean architecture principles and proper logic separation.
+This is a simple Java project for my programming class. It acts like a cash register for a café.
 
-## 📋 Project Requirements Met
-* **Dynamic Menu:** Displays items with matching index numbers, names, and regional pricing (SEK).
-* **Input Validation:** Prevents program crashes by explicitly validating user choices and quantities using looping checks (`while` loops).
-* **Automated Discounts:** 
-  * 15% discount automatically applied for verified loyalty members.
-  * 10% discount automatically applied for non-members on orders exceeding 150 SEK.
-* **Taxation Execution:** Applies a mandatory 12% VAT to the base price following discount deductions.
-* **Method Separation:** Main orchestration handles project flow control while independent sub-methods execute computations and interface logs.
+## What It Does
+* **Displays a Menu:** Shows choices like Latte, Cappuccino, Coffee, and Croissants with prices in SEK.
+* **Takes Orders:** Asks for the customer's name, item choice, quantity, and loyalty card status.
+* **Calculates Discounts:** Gives a 15% discount to members, or a 10% discount if an order is over 150 SEK.
+* **Adds Tax:** Calculates a 12% VAT tax at the end.
+* **Prints a Receipt:** Shows a neat final bill on the screen.
 
-## 🛠️ How To Run
-1. Open this project inside **IntelliJ IDEA**.
-2. Navigate to `src/main/java/CafeApplication.java`.
-3. Press `Shift + F10` or click the green **Play** arrow next to the class declaration.
-4. Interact using the console window prompts at the bottom of the screen.
-  
